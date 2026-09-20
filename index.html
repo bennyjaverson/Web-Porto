@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal portfolio website of Benny.">
-    <title>Portfolio</title>
+    <title>Benny Javerson D A | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,7 +16,7 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#experiences">Experiences</a></li>
+                    <li><a href="#education">Education</a></li>
                     <li><a href="#certificates">Certificates</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -33,11 +33,11 @@
         </div>
     </header>
     <main>
-        <section id="home" class="hero">
+        <section id="home" class="home">
             <div class="container grid">
-                <profile class="photo">
-                    <img src="images/profile.jpg" width="380" height="380">
-                </profile>
+                <figure class="photo">
+                    <img src="assets/profile.jpg" alt="Foto profil" width="380" height="380">
+                </figure>
                 <div class="content">
                     <p class="overline">Halo, saya</p>
                     <h1 class="name">Benny Javerson D A</h1>
@@ -47,13 +47,46 @@
                         yang saat ini fokus membangun fondasi web development. 
                         Saya aktif mengasah logika pemrograman dan desain antarmuka melalui
                         pengerjaan berbagai proyek akademik maupun eksperimen pribadi.
+                    </p>
                     <div class="actions">
-                        <a href="assets/cv-benny.pdf" class="btn btn-primary" download>Download CV</a>
+                        <a href="assets/cvbenny.pdf" class="btn btn-primary" download>Download CV</a>
                         <a href="https://github.com/bennyjaverson" class="btn btn-outline"
                            target="_blank" rel="noopener noreferrer">GitHub</a>
                         <a href="https://www.linkedin.com/in/bennyjaverson" class="btn btn-outline"
                            target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Projects</h2>
+                    <p class="section-subtitle">Proyek yang sudah saya kerjakan sejauh ini.</p>
+                </div>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-thumb">
+                            <img src="images/portfolio.jpg" alt="Preview website portfolio" loading="lazy">
+                            <span class="project-badge">Featured</span>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Website Portfolio</h3>
+                            <p class="project-desc">
+                            Website portofolio pribadi yang responsif. Dibuat murni menggunakan HTML, CSS, dan 
+                            JavaScript (DOM) tanpa framework untuk performa yang ringan dan cepat.
+                            </p>
+                            <ul class="project-tags">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="project-actions">
+                                <a href="https://github.com/bennyjaverson/Web-Porto" class="btn btn-outline"
+                                   target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>

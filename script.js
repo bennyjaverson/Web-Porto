@@ -1,44 +1,26 @@
 
-const body = document.body;
-const themeBtn = document.getElementById('darklight');
-const menuBtn = document.getElementById('menu-toggle');
-const navMenu = document.getElementById('nav-menu');
+const darkLightButton = document.getElementById("darklight");
 
-function applyTheme(isLight) {
-    body.classList.toggle('light-mode', isLight);
-    themeBtn.textContent = isLight ? '🌙' : '☀️';
-    themeBtn.setAttribute(
-        'aria-label',
-        isLight ? 'Switch to dark mode' : 'Switch to light mode'
-    );
-}
+darkLightButton.addEventListener("click", function(){
+    document.body.classList.toggle("dark");
 
-applyTheme(localStorage.getItem('theme') === 'light');
-
-themeBtn.addEventListener('click', function () {
-    const isLight = !body.classList.contains('light-mode');
-    applyTheme(isLight);
-    localStorage.setItem('theme', isLight ? 'light' : 'dark');
-});
-
-function setMenu(isOpen) {
-    navMenu.classList.toggle('is-open', isOpen);
-    menuBtn.setAttribute('aria-expanded', isOpen);
-    menuBtn.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
-}
-
-menuBtn.addEventListener('click', function () {
-    setMenu(!navMenu.classList.contains('is-open'));
-});
-
-navMenu.querySelectorAll('a').forEach(function (link) {
-    link.addEventListener('click', function () {
-        setMenu(false);
-    });
-});
-
-window.matchMedia('(min-width: 901px)').addEventListener('change', function (event) {
-    if (event.matches) {
-        setMenu(false);
+    if (document.body.classList.contains("dark")){
+        darkLightButton.textContent = "🌙";
+        darkLightButton.setAttribute("aria-label", "Switch to light mode");
+    } else {
+        darkLightButton.textContent = "☀️";
+        darkLightButton.setAttribute("aria-label", "Switch to dark mode");
     }
+});
+
+
+const menuButton = document.getElementById("menu-toggle");
+const navMenu = document.getElementById("nav-menu");
+
+menuButton.addEventListener("click", function(){
+    navMenu.classList.toggle("active");
+
+    const isOpen = navMenu.classList.contains("active");
+
+    menuButton.setAttribute("aria-expanded", isOpen);
 });
