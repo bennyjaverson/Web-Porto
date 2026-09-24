@@ -8,8 +8,7 @@ Website portofolio pribadi milik **Benny Javerson D A**, dibuat untuk memenuhi k
 ---
 
 ## 📝 Deskripsi Singkat
-Website ini adalah portofolio pribadi yang menampilkan profil, daftar proyek, riwayat pendidikan, sertifikat, serta informasi kontak.  
-Dibangun murni menggunakan **HTML, Plain CSS, dan JavaScript (DOM)** tanpa bantuan framework atau library CSS eksternal (seperti Tailwind atau Bootstrap), sehingga menghasilkan performa yang ringan dan cepat.
+Website ini adalah portofolio pribadi yang menampilkan profil, daftar proyek, riwayat pendidikan, sertifikat, serta informasi kontak. Dibangun murni menggunakan **HTML, Plain CSS, dan JavaScript (DOM)** tanpa bantuan framework atau library CSS eksternal (seperti Tailwind atau Bootstrap), sehingga menghasilkan performa yang ringan dan cepat.
 
 ---
 
