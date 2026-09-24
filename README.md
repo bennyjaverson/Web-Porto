@@ -4,9 +4,14 @@ Personal portfolio website milik Benny Javerson D A, dibuat untuk memenuhi tugas
 
 🔗 Live Demo: https://bennyjaverson.my.id
 
+Tampilan Desktop Dark Mode:
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/14cdfca3-c89f-4424-b7c0-fcc1befcf1c0" />
 
-<img width="714" height="1599" alt="image" src="https://github.com/user-attachments/assets/8199857e-7f39-4c75-93ba-2e66aa82c4b7" />
+Tampilan Desktop Light Mode
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/6eae142a-de69-4331-92f4-390594925479" />
+
+Tampilan Mobile
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/8199857e-7f39-4c75-93ba-2e66aa82c4b7" />
 
 
 
