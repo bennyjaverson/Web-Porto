@@ -198,6 +198,17 @@ body{
     color:#ffffff;
 }
 
+.hero_icon_link{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:transform 0.2s ease;
+}
+
+.hero_icon_link:hover{
+    transform:translateY(-3px);
+}
+
 .projects{
     padding:70px 0;
     background-color:var(--bg_secondary);
@@ -443,9 +454,37 @@ body{
 }
 
 .footer_bottom{
-    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:10px;
     font-size:13px;
     color:var(--text_muted);
+}
+
+.footer_icons{
+    display:flex;
+    align-items:center;
+    gap:14px;
+}
+
+.footer_icon_link{
+    display:flex;
+    align-items:center;
+    color:var(--text_primary);
+    transition:color 0.2s ease;
+}
+
+.footer_icon_link:hover{
+    color:var(--accent);
+}
+
+@media (max-width: 480px){
+    .footer_bottom{
+        justify-content:center;
+        text-align:center;
+    }
 }
 
 @media (max-width: 768px){
