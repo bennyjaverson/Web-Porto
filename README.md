@@ -4,7 +4,7 @@ Personal portfolio website milik Benny Javerson D A, dibuat untuk memenuhi tugas
 
 🔗 Live Demo: https://bennyjaverson.my.id
 
-<img width="1883" height="1095" alt="image" src="https://github.com/user-attachments/assets/14cdfca3-c89f-4424-b7c0-fcc1befcf1c0" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/14cdfca3-c89f-4424-b7c0-fcc1befcf1c0" />
 
 <img width="714" height="1599" alt="image" src="https://github.com/user-attachments/assets/8199857e-7f39-4c75-93ba-2e66aa82c4b7" />
 
